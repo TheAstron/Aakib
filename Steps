@@ -1,0 +1,9 @@
+#This also belongs to them
+
+sudo apt install pip
+pip install virtualenv
+sudo apt install python3-virtualenv
+virtualenv myenv
+source myenv/bin/activate
+pip install keyboard gtts pygame
+python3 TTS.py
